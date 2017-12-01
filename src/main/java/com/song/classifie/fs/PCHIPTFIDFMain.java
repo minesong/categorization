@@ -12,7 +12,7 @@ import java.util.Map;
 //一种基于多特征因子改进的中文文本分类算法
 public class PCHIPTFIDFMain {
     public static void main(String[] args) {
-        String path = "F:\\opennlp\\fudan-s1/";
+        String path = "F:\\opennlp\\fudan-s6/";
         //ParseDocument.getCorpMap(path + "train");
         //ParseDocument.getCorpMapWithTest(path + "test");
         Map<String, Map<String, Double>> trainIDF = TFIDF.getTFIDFAll2(true);

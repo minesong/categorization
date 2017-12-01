@@ -15,7 +15,7 @@ import com.song.classifie.svm.svm_predict;
  */
 public class TFIDFMain {
     public static void main(String[] args) {
-        String path = "F:\\opennlp\\fudan-s1/";
+        String path = "F:\\opennlp\\fudan-s6/";
         ParseDocument.getCorpMap(path + "train");
         ParseDocument.getCorpMapWithTest(path + "test");
         Map<String, Map<String, Double>> trainIDF = TFIDF.getTFIDFAll(true);

@@ -11,7 +11,7 @@ import java.util.Map;
  */
 public class WekaMain2 {
     public static void main(String[] args) {
-        String path = "F:\\opennlp\\fudan-s1/";
+        String path = "F:\\opennlp\\fudan-s6/";
         //ParseDocument.getCorpMap(path + "train");
         //ParseDocument.getCorpMapWithTest(path + "test");
         Map<String, Map<String, Double>> trainIDF = TFIDF.getTFIDFAll(true);
