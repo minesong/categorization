@@ -7,12 +7,27 @@ import java.util.*;
  * @date 2017/11/12
  */
 public class CacluateChi {
+
+    /**
+     * 获取下一日的日期
+     * @return
+     */
+    public Date getNextDate() {
+        try {
+            Thread.sleep(1000 * 60 * 60 * 24);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return new Date();
+    }
+
     public static Integer featureNum = 200;
     public static Map<String, Integer> mapCls;
     public static Map<String, Integer> mapSVM;
     public static Map<String, Map<String, Double>> mapCHiAll;
     public static Set<String> corpSet;
-    public  static double weight=1;
+    public static double weight = 1;
+
     public static void getTrain(boolean flag) {
         mapCls = new HashMap<>();
         mapSVM = new HashMap<>();
@@ -134,8 +149,8 @@ public class CacluateChi {
             }
         }
         Double chi = new ChiSquare(feature, a, b, c, d).getChisq();
-        double bb =a * 1.0 - ((a + b) * 1.0 / corpMap.keySet().size());
-        chi = chi * Math.log(weight*t * 1.0 / (a + b))* a / (a + c)*bb ;
+        double bb = a * 1.0 - ((a + b) * 1.0 / corpMap.keySet().size());
+        chi = chi * Math.log(weight * t * 1.0 / (a + b)) * a / (a + c) * bb;
         return chi;
 
     }
