@@ -115,7 +115,7 @@ public class TFIDF {
                 }
             }
             int sub = 0;
-            for (int i = 0; i < Math.min(20, list.size()); i++) {
+            for (int i = 0; i < Math.min(10, list.size()); i++) {
                 if (word.equals(list.get(i))) {
                     sub++;
                 }

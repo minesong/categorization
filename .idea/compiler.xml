@@ -10,7 +10,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="categorization" target="1.5" />
+      <module name="categorization" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="DEBUGGING_INFO" value="false" />
   </component>
 </project>

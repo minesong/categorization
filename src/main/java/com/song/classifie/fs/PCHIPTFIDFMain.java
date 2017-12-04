@@ -3,6 +3,7 @@ package com.song.classifie.fs;
 import com.song.classifie.svm.svm_predict;
 
 import java.io.*;
+import java.util.Date;
 import java.util.Map;
 
 /**
@@ -20,7 +21,7 @@ public class PCHIPTFIDFMain {
         // 是否第一次计算chi
         boolean flag = true;
         StringBuffer sb = new StringBuffer();
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300) {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -48,7 +49,7 @@ public class PCHIPTFIDFMain {
         // 是否第一次计算chi
         flag = true;
         sb.append("\r\n--------------------------------------------------------------\r\n");
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300) {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -76,7 +77,7 @@ public class PCHIPTFIDFMain {
         // 是否第一次计算chi
         //flag = true;
         sb.append("\r\n--------------------------------------------------------------\r\n");
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");

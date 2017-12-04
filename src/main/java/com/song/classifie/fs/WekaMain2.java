@@ -21,7 +21,7 @@ public class WekaMain2 {
         System.out.println("原生");
         StringBuffer sb = new StringBuffer();
         sb.append("CacluateChi\r\n");
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -43,7 +43,7 @@ public class WekaMain2 {
         System.out.println();
         System.out.println();
         flag = true;
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -66,7 +66,7 @@ public class WekaMain2 {
         sb.append("\r\n");
         flag = true;
         sb.append("-------------------------------------------------------------\r\n");
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -87,7 +87,7 @@ public class WekaMain2 {
         sb.append("\r\n");
         sb.append("-------------------------------------------------------------\r\n");
         flag = true;
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -112,7 +112,7 @@ public class WekaMain2 {
         sb.append("\r\n");
         sb.append("\r\n");
         sb.append("-------------------------------------------------------------\r\n");
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300) {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -135,7 +135,7 @@ public class WekaMain2 {
         System.out.println();
         System.out.println();
         flag = true;
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -158,7 +158,7 @@ public class WekaMain2 {
         sb.append("\r\n");
         sb.append("-------------------------------------------------------------\r\n");
         flag = true;
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300) {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -189,7 +189,7 @@ public class WekaMain2 {
         sb = new StringBuffer();
         sb.append("CacluateChi\r\n");
         sb.append("-------------------------------------------------------------\r\n");
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300) {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -212,7 +212,7 @@ public class WekaMain2 {
         System.out.println();
         sb.append("-------------------------------------------------------------\r\n");
         flag = true;
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300) {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -235,7 +235,7 @@ public class WekaMain2 {
         sb.append("\r\n");
         sb.append("-------------------------------------------------------------\r\n");
         flag = true;
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300) {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -256,7 +256,7 @@ public class WekaMain2 {
         sb.append("\r\n");
         sb.append("-------------------------------------------------------------\r\n");
         flag = true;
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300) {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -281,7 +281,7 @@ public class WekaMain2 {
         sb.append("\r\n");
         sb.append("\r\n");
         sb.append("-------------------------------------------------------------\r\n");
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -304,7 +304,7 @@ public class WekaMain2 {
         System.out.println();
         sb.append("-------------------------------------------------------------\r\n");
         flag = true;
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -327,7 +327,7 @@ public class WekaMain2 {
         sb.append("\r\n");
         sb.append("-------------------------------------------------------------\r\n");
         flag = true;
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");

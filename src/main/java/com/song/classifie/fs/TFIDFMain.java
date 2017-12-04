@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
+import java.util.Date;
 import java.util.Map;
 
 import com.song.classifie.svm.svm_predict;
@@ -15,17 +16,22 @@ import com.song.classifie.svm.svm_predict;
  */
 public class TFIDFMain {
     public static void main(String[] args) {
+        System.out.println(new Date());
+        Long t1 = System.currentTimeMillis();
         String path = "F:\\opennlp\\fudan-s6/";
         ParseDocument.getCorpMap(path + "train");
         ParseDocument.getCorpMapWithTest(path + "test");
         Map<String, Map<String, Double>> trainIDF = TFIDF.getTFIDFAll(true);
         Map<String, Map<String, Double>> testIDF = TFIDF.getTFIDFAll(false);
         // 是否第一次计算chi
+        WekaMain2.main(args);
+        PCHIPTFIDFMain.main(args);
         boolean flag = true;
         System.out.println("原生");
         StringBuffer sb = new StringBuffer();
         sb.append("CacluateChi\r\n");
-        for (int i = 300; i <= 2000; i += 100) {
+
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -46,7 +52,7 @@ public class TFIDFMain {
         System.out.println();
         System.out.println();
         flag = true;
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -67,7 +73,7 @@ public class TFIDFMain {
         sb.append("\r\n");
         sb.append("\r\n");
         flag = true;
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -86,7 +92,7 @@ public class TFIDFMain {
         sb.append("\r\n");
         sb.append("\r\n");
         flag = true;
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -109,7 +115,7 @@ public class TFIDFMain {
         flag = true;
         sb.append("\r\n");
         sb.append("\r\n");
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -130,7 +136,7 @@ public class TFIDFMain {
         System.out.println();
         System.out.println();
         flag = true;
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -151,7 +157,7 @@ public class TFIDFMain {
         sb.append("\r\n");
         sb.append("\r\n");
         flag = true;
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -180,7 +186,7 @@ public class TFIDFMain {
         System.out.println("原生");
         sb = new StringBuffer();
         sb.append("CacluateChi\r\n");
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -201,7 +207,7 @@ public class TFIDFMain {
         System.out.println();
         System.out.println();
         flag = true;
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300) {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -222,7 +228,7 @@ public class TFIDFMain {
         sb.append("\r\n");
         sb.append("\r\n");
         flag = true;
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -241,7 +247,7 @@ public class TFIDFMain {
         sb.append("\r\n");
         sb.append("\r\n");
         flag = true;
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -264,7 +270,7 @@ public class TFIDFMain {
         flag = true;
         sb.append("\r\n");
         sb.append("\r\n");
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -285,7 +291,7 @@ public class TFIDFMain {
         System.out.println();
         System.out.println();
         flag = true;
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300) {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -306,7 +312,7 @@ public class TFIDFMain {
         sb.append("\r\n");
         sb.append("\r\n");
         flag = true;
-        for (int i = 300; i <= 2000; i += 100) {
+        for (int i = 300; i <= 4000; i += 300)  {
             sb.append("\r\n");
             sb.append("featureNum: " + i);
             sb.append("\r\n");
@@ -323,9 +329,10 @@ public class TFIDFMain {
             System.out.println("----------------------------------------------------------------");
         }
         writeStrToFile(path + "resultnew1129.txt", sb.toString());
-        WekaMain2.main(args);
-        PCHIPTFIDFMain.main(args);
 
+        System.out.println(new Date());
+        Long t2 = System.currentTimeMillis();
+        System.out.println((t2 - t1) / (1.0 * 1000 * 60));
     }
 
     public static void writeStrToFile(String path, String c) {
