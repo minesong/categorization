@@ -42,6 +42,9 @@ public class TFIDFMainImb {
             sb.append("\r\n\r\n" + Weka.j48);
             sb.append("\r\n" + Weka.nb);
             sb.append("\r\n" + Weka.rf);
+            sb.append("\r\n" + Weka.knn4);
+            sb.append("\r\n" + Weka.knn7);
+            sb.append("\r\n" + Weka.knn15);
             sb.append("\r\n" + Weka.reslist);
             System.out.println("----------------------------------------------------------------");
         }
@@ -71,6 +74,9 @@ public class TFIDFMainImb {
             sb.append("\r\n\r\n" + Weka.j48);
             sb.append("\r\n" + Weka.nb);
             sb.append("\r\n" + Weka.rf);
+            sb.append("\r\n" + Weka.knn4);
+            sb.append("\r\n" + Weka.knn7);
+            sb.append("\r\n" + Weka.knn15);
             sb.append("\r\n" + Weka.reslist);
             System.out.println("----------------------------------------------------------------");
         }
@@ -100,6 +106,9 @@ public class TFIDFMainImb {
             sb.append("\r\n\r\n" + Weka.j48);
             sb.append("\r\n" + Weka.nb);
             sb.append("\r\n" + Weka.rf);
+            sb.append("\r\n" + Weka.knn4);
+            sb.append("\r\n" + Weka.knn7);
+            sb.append("\r\n" + Weka.knn15);
             sb.append("\r\n" + Weka.reslist);
             System.out.println("----------------------------------------------------------------");
         }
@@ -129,6 +138,9 @@ public class TFIDFMainImb {
             sb.append("\r\n\r\n" + Weka.j48);
             sb.append("\r\n" + Weka.nb);
             sb.append("\r\n" + Weka.rf);
+            sb.append("\r\n" + Weka.knn4);
+            sb.append("\r\n" + Weka.knn7);
+            sb.append("\r\n" + Weka.knn15);
             sb.append("\r\n" + Weka.reslist);
             System.out.println("----------------------------------------------------------------");
         }
@@ -158,6 +170,9 @@ public class TFIDFMainImb {
             sb.append("\r\n\r\n" + Weka.j48);
             sb.append("\r\n" + Weka.nb);
             sb.append("\r\n" + Weka.rf);
+            sb.append("\r\n" + Weka.knn4);
+            sb.append("\r\n" + Weka.knn7);
+            sb.append("\r\n" + Weka.knn15);
             sb.append("\r\n" + Weka.reslist);
             System.out.println("----------------------------------------------------------------");
         }

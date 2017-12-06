@@ -2,6 +2,7 @@ package com.song.classifie.fs;
 
 import weka.classifiers.Classifier;
 import weka.classifiers.bayes.NaiveBayes;
+import weka.classifiers.lazy.IBk;
 import weka.classifiers.trees.J48;
 import weka.classifiers.trees.RandomForest;
 import weka.core.Instances;
@@ -27,6 +28,9 @@ public class Weka {
 	public static double j48;
 	public static double nb;
 	public static double rf;
+	public static double knn15;
+	public static double knn4;
+	public static double knn7;
 	public static List<Double> reslist = new ArrayList<>();
 	public static void main(String[] args) {
 		System.out.println(Math.log(4));
@@ -44,7 +48,12 @@ public class Weka {
 		System.out.println("--------------------------------------------------------");
 		m_classifier = new RandomForest();
 		rf = classifier(trainpath, testpath, m_classifier);
-		// classifier(trainpath, testpath, m_classifier);
+		m_classifier = new IBk(15);
+		knn15 = classifier(trainpath, testpath, m_classifier);
+		m_classifier = new IBk(4);
+		knn4 = classifier(trainpath, testpath, m_classifier);
+		m_classifier = new IBk(7);
+		knn7 = classifier(trainpath, testpath, m_classifier);
 	}
 
 	private static double classifier(String trainpath, String testpath, Classifier m_classifier) {
