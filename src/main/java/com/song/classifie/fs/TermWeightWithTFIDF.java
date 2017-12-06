@@ -181,6 +181,48 @@ public class TermWeightWithTFIDF {
         }
         ParseDocument.writeStrToFile(subDir, sb.toString());
     }
+    public static void getTermWeightwithTFIDFImb(String dir, String subDir, Map<String, Map<String, Double>> tfidfMap) {
+        Map<String, Integer> mapCls = CacluateChiImb.mapCls;
+        Map<String, Integer> mapSVM = CacluateChiImb.mapSVM;
+        File dir1 = new File(dir);
+        File[] dirs2 = dir1.listFiles();
+        StringBuffer sb = new StringBuffer();
+        for (File dir2 : dirs2) {
+            String path2 = dir + "/" + dir2.getName();
+            File dir33 = new File(path2);
+            File[] dirs3 = dir33.listFiles();
+            for (File dir3 : dirs3) {
+                Map<String, Double> scoreMap = tfidfMap.get(dir3.getName());
+                StringBuffer sf = map2String(scoreMap, mapSVM);
+                if (sf.length() >= 2) {
+                    sb.append(mapCls.get(dir2.getName()) + " ");
+                    sb.append(sf);
+                }
+            }
+        }
+        ParseDocument.writeStrToFile(subDir, sb.toString());
+    }
+    public static void getTermWeightwithTFIDFImb1(String dir, String subDir, Map<String, Map<String, Double>> tfidfMap) {
+        Map<String, Integer> mapCls = CacluateChiImb1.mapCls;
+        Map<String, Integer> mapSVM = CacluateChiImb1.mapSVM;
+        File dir1 = new File(dir);
+        File[] dirs2 = dir1.listFiles();
+        StringBuffer sb = new StringBuffer();
+        for (File dir2 : dirs2) {
+            String path2 = dir + "/" + dir2.getName();
+            File dir33 = new File(path2);
+            File[] dirs3 = dir33.listFiles();
+            for (File dir3 : dirs3) {
+                Map<String, Double> scoreMap = tfidfMap.get(dir3.getName());
+                StringBuffer sf = map2String(scoreMap, mapSVM);
+                if (sf.length() >= 2) {
+                    sb.append(mapCls.get(dir2.getName()) + " ");
+                    sb.append(sf);
+                }
+            }
+        }
+        ParseDocument.writeStrToFile(subDir, sb.toString());
+    }
 
     private static StringBuffer map2String(Map<String, Double> scoreMap, Map<String, Integer> mapSVM) {
         //TODO

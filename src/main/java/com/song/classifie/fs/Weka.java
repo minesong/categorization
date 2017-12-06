@@ -417,4 +417,79 @@ public class Weka {
 		}
 		return sb;
 	}
+
+	public static void getTermWeightwithTFIDFImb(String dir, String subDir, Map<String, Map<String, Double>> tfidfMap) {
+		Map<String, Integer> mapCls = CacluateChiImb.mapCls;
+		Map<String, Integer> mapSVM = CacluateChiImb.mapSVM;
+		File dir1 = new File(dir);
+		File[] dirs2 = dir1.listFiles();
+		StringBuffer sb = new StringBuffer();
+		sb.append("@RELATION net\r\n");
+		for (Map.Entry<String, Integer> entry : mapSVM.entrySet()) {
+			sb.append("@ATTRIBUTE  " + entry.getValue() + "  NUMERIC\r\n");
+		}
+		sb.append("@ATTRIBUTE class   {");
+		int indx = 1;
+		for (Map.Entry<String, Integer> entry : mapCls.entrySet()) {
+			sb.append(entry.getKey());
+			if (indx != mapCls.size()) {
+				sb.append(",");
+			}
+			indx++;
+		}
+		sb.append("}\r\n");
+		sb.append("@DATA\r\n");
+		for (File dir2 : dirs2) {
+			String path2 = dir + "/" + dir2.getName();
+			File dir33 = new File(path2);
+			File[] dirs3 = dir33.listFiles();
+			for (File dir3 : dirs3) {
+				Map<String, Double> scoreMap = tfidfMap.get(dir3.getName());
+				StringBuffer sf = map2WekaString(scoreMap, mapSVM);
+				if (sf.length() >= 2) {
+					sb.append(sf);
+					sb.append(dir2.getName() + "\r\n");
+
+				}
+			}
+		}
+		ParseDocument.writeStrToFile(subDir, sb.toString());
+	}
+	public static void getTermWeightwithTFIDFImb1(String dir, String subDir, Map<String, Map<String, Double>> tfidfMap) {
+		Map<String, Integer> mapCls = CacluateChiImb1.mapCls;
+		Map<String, Integer> mapSVM = CacluateChiImb1.mapSVM;
+		File dir1 = new File(dir);
+		File[] dirs2 = dir1.listFiles();
+		StringBuffer sb = new StringBuffer();
+		sb.append("@RELATION net\r\n");
+		for (Map.Entry<String, Integer> entry : mapSVM.entrySet()) {
+			sb.append("@ATTRIBUTE  " + entry.getValue() + "  NUMERIC\r\n");
+		}
+		sb.append("@ATTRIBUTE class   {");
+		int indx = 1;
+		for (Map.Entry<String, Integer> entry : mapCls.entrySet()) {
+			sb.append(entry.getKey());
+			if (indx != mapCls.size()) {
+				sb.append(",");
+			}
+			indx++;
+		}
+		sb.append("}\r\n");
+		sb.append("@DATA\r\n");
+		for (File dir2 : dirs2) {
+			String path2 = dir + "/" + dir2.getName();
+			File dir33 = new File(path2);
+			File[] dirs3 = dir33.listFiles();
+			for (File dir3 : dirs3) {
+				Map<String, Double> scoreMap = tfidfMap.get(dir3.getName());
+				StringBuffer sf = map2WekaString(scoreMap, mapSVM);
+				if (sf.length() >= 2) {
+					sb.append(sf);
+					sb.append(dir2.getName() + "\r\n");
+
+				}
+			}
+		}
+		ParseDocument.writeStrToFile(subDir, sb.toString());
+	}
 }
