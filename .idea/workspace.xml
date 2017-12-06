@@ -23,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TFIDFMain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TFIDFMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="366">
@@ -31,6 +31,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -161,7 +171,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi111.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChiBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi3.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/categorization.iml" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDF.java" />
@@ -177,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChiImb1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Weka.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -506,7 +516,7 @@
       <workItem from="1511834182721" duration="38101000" />
       <workItem from="1512134635052" duration="1612000" />
       <workItem from="1512222209152" duration="549000" />
-      <workItem from="1512290153891" duration="46161000" />
+      <workItem from="1512290153891" duration="46213000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <created>1511938933863</created>
@@ -529,11 +539,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512524283335</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加KNN分类器代码">
+      <created>1512540305275</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1512540305275</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177678000" />
+    <option name="totallyTimeSpent" value="177730000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -642,7 +659,8 @@
     <MESSAGE value="git init" />
     <MESSAGE value="1204" />
     <MESSAGE value="增加不平衡数据集算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加不平衡数据集算法" />
+    <MESSAGE value="增加KNN分类器代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加KNN分类器代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -769,14 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="783">
           <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1998">
-          <caret line="74" column="21" lean-forward="false" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1004,6 +1014,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

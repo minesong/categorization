@@ -27,11 +27,6 @@
             <version>5.1.1</version>
         </dependency>
         <dependency>
-            <groupId>com.github.ptnplanet</groupId>
-            <artifactId>Java-Naive-Bayes-Classifier</artifactId>
-            <version>1.0.7</version>
-        </dependency>
-        <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.6</version>
