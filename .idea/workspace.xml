@@ -4,10 +4,19 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain2.java" line="12" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c89ec21b-c9d7-46a9-ab4f-c37c6bc7ea7d" name="Default" comment="">
+    <list default="true" id="c89ec21b-c9d7-46a9-ab4f-c37c6bc7ea7d" name="Default" comment="增加Weka 评估标准 P、R、F">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/song/classifie/kmeans/K_Means.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/song/classifie/kmeans/MyFrame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/data3.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ptnplanet_Java_Naive_Bayes_Classifier_1_0_7.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/TFIDFMainImb.class" afterPath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/TFIDFMainImb.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/Weka.class" afterPath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/Weka.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/weka/TestWeka.class" afterPath="$PROJECT_DIR$/target/classes/com/song/classifie/weka/TestWeka.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categorization.iml" afterPath="$PROJECT_DIR$/categorization.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Weka.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Weka.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/weka/TestWeka.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classifie/weka/TestWeka.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,6 +27,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="categorization" />
   </component>
@@ -26,8 +46,8 @@
       <file leaf-file-name="TFIDFMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="217" column="22" lean-forward="true" selection-start-line="217" selection-start-column="22" selection-end-line="217" selection-end-column="22" />
+            <state relative-caret-position="1566">
+              <caret line="217" column="22" lean-forward="false" selection-start-line="217" selection-start-column="22" selection-end-line="217" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,32 +55,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="118">
+              <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CacluateChiImb1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChiImb1.java">
+      <file leaf-file-name="K_Means.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/kmeans/K_Means.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="-2205">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WekaMain2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/WekaMain2.java">
+      <file leaf-file-name="data3.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/data3.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3301">
-              <caret line="341" column="26" lean-forward="false" selection-start-line="341" selection-start-column="26" selection-end-line="341" selection-end-column="26" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyFrame.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/kmeans/MyFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="82" column="31" lean-forward="false" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleKMeans.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../weka/Weka-3-8/weka-src.jar!/src/main/java/weka/clusterers/SimpleKMeans.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4887">
+              <caret line="1650" column="16" lean-forward="false" selection-start-line="1650" selection-start-column="16" selection-end-line="1650" selection-end-column="16" />
+              <folding>
+                <element signature="e#51563#51564#0" expanded="true" />
+                <element signature="e#51610#51611#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,8 +113,8 @@
       <file leaf-file-name="TFIDFMainImb.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1734">
-              <caret line="46" column="43" lean-forward="false" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+            <state relative-caret-position="405">
+              <caret line="48" column="41" lean-forward="false" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,41 +122,34 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="CacluateChi4.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1262">
+              <caret line="77" column="34" lean-forward="false" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Weka.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Weka.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="102" column="29" lean-forward="true" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="-25">
+              <caret line="47" column="29" lean-forward="false" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+              <folding>
+                <element signature="e#880#881#0" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IBk.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../weka/Weka-3-8/weka-src.jar!/src/main/java/weka/classifiers/lazy/IBk.java">
+      <file leaf-file-name="TestWeka.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/weka/TestWeka.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6885">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WekaMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/WekaMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-235">
-              <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CacluateChi2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="127" column="46" lean-forward="false" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="46" />
+            <state relative-caret-position="459">
+              <caret line="39" column="71" lean-forward="false" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -137,11 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/svm/svm_train.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Pa.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/十大.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/sad.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Caclute.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/师范大学.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TermWeightWithTFIDF2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/范德萨.java" />
@@ -160,7 +193,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/knn/SingleLayerNeuralNet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/knn/KNN.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/weka/wekaTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/weka/TestWeka.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/撒地方.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/PCHIPTFIDF.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/WekaMain.java" />
@@ -184,9 +216,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TermWeightWithTFIDF.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChiImb.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChiImb1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Weka.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/weka/TestWeka.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs2/Kmeans.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs2/K_Means.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs2/song.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs2/MyFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/kmeans/K_Means.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Weka.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/kmeans/MyFrame.java" />
       </list>
     </option>
   </component>
@@ -215,8 +254,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="972" />
+    <option name="y" value="82" />
     <option name="width" value="160" />
     <option name="height" value="38" />
   </component>
@@ -236,9 +275,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,24 +300,55 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="categorization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="categorization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classifie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="categorization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="categorization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classifie" type="462c0819:PsiDirectoryNode" />
+              <item name="fs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="categorization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="categorization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classifie" type="462c0819:PsiDirectoryNode" />
+              <item name="fs" type="462c0819:PsiDirectoryNode" />
+              <item name="Weka.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../weka/Weka-3-8/weka-src.jar!/" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\workspace\featureselection\categorization\src\main\resources" />
       <recent name="D:\develop\workspace\featureselection\categorization\src\main\java\com\song\classifie\fs" />
       <recent name="D:\develop\workspace\featureselection\categorization\src\main\java\com\song\classifie\knn" />
       <recent name="D:\develop\workspace\featureselection\categorization\src\main\java\com\song\classifie\svm" />
@@ -300,14 +367,33 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.TFIDFMainImb">
-    <configuration name="PCHIPTFIDFMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Kmeans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.song.classifie.fs.*" />
+          <option name="PATTERN" value="com.song.classifie.kmeans.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.song.classifie.fs.PCHIPTFIDFMain" />
+      <option name="MAIN_CLASS_NAME" value="com.song.classifie.fs2.Kmeans" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="categorization" />
+      <envs />
+    </configuration>
+    <configuration name="MyFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.song.classifie.kmeans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.song.classifie.kmeans.MyFrame" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -357,33 +443,14 @@
       <module name="categorization" />
       <envs />
     </configuration>
-    <configuration name="Weka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWeka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.song.classifie.fs.*" />
+          <option name="PATTERN" value="com.song.classifie.weka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.song.classifie.fs.Weka" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="categorization" />
-      <envs />
-    </configuration>
-    <configuration name="WekaMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.song.classifie.fs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.song.classifie.fs.WekaMain2" />
+      <option name="MAIN_CLASS_NAME" value="com.song.classifie.weka.TestWeka" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -478,18 +545,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.TFIDFMain" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Weka" />
-      <item index="2" class="java.lang.String" itemvalue="Application.WekaMain2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PCHIPTFIDFMain" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TFIDFMainImb" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TFIDFMainImb" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestWeka" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Kmeans" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MyFrame" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.TFIDFMainImb" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TFIDFMain" />
-        <item index="2" class="java.lang.String" itemvalue="Application.WekaMain2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PCHIPTFIDFMain" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Weka" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MyFrame" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Kmeans" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestWeka" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TFIDFMain" />
       </list>
     </recent_temporary>
   </component>
@@ -516,7 +583,10 @@
       <workItem from="1511834182721" duration="38101000" />
       <workItem from="1512134635052" duration="1612000" />
       <workItem from="1512222209152" duration="549000" />
-      <workItem from="1512290153891" duration="46213000" />
+      <workItem from="1512290153891" duration="57170000" />
+      <workItem from="1512614346134" duration="2761000" />
+      <workItem from="1512652282577" duration="1750000" />
+      <workItem from="1512786901268" duration="16406000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <created>1511938933863</created>
@@ -550,9 +620,9 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177730000" />
+    <option name="totallyTimeSpent" value="209604000" />
   </component>
-  <component name="TodoView" selected-index="1">
+  <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -566,26 +636,26 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3258427" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3258427" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31882024" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45067698" sideWeight="0.505799" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7022472" sideWeight="0.49484536" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.81320226" sideWeight="0.49484536" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9747191" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49420103" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8469101" sideWeight="0.49420103" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27641752" sideWeight="0.49166667" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30734536" sideWeight="0.49166667" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925257" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0154639175" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7001934" sideWeight="0.4935567" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6994382" sideWeight="0.4935567" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5083333" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -660,11 +730,12 @@
     <MESSAGE value="1204" />
     <MESSAGE value="增加不平衡数据集算法" />
     <MESSAGE value="增加KNN分类器代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加KNN分类器代码" />
+    <MESSAGE value="增加Weka 评估标准 P、R、F" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加Weka 评估标准 P、R、F" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -673,16 +744,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/svm/F1Score.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/knn/fsa1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/knn/DataSet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/knn/Classifier.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/knn/BaselineClassifier.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/knn/BinaryDataSet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/knn/SingleLayerNeuralNet.java" />
@@ -721,14 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-162">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="33" column="55" lean-forward="false" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -795,7 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -811,7 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="106" column="19" lean-forward="false" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,10 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="403" column="14" lean-forward="false" selection-start-line="403" selection-start-column="14" selection-end-line="403" selection-end-column="14" />
-          <folding>
-            <element signature="e#13950#13951#0" expanded="true" />
-            <element signature="e#14010#14011#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -830,15 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/weka/TestWeka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="44" column="51" lean-forward="false" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -924,16 +962,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
+        <state relative-caret-position="3348">
           <caret line="127" column="46" lean-forward="false" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChiImb1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -942,13 +972,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/WekaMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-235">
+        <state relative-caret-position="243">
           <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
           <folding />
         </state>
@@ -958,10 +987,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8505">
           <caret line="378" column="19" lean-forward="false" selection-start-line="378" selection-start-column="19" selection-end-line="378" selection-end-column="19" />
-          <folding>
-            <element signature="e#2181#2182#0" expanded="true" />
-            <element signature="e#2208#2209#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -969,48 +994,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../../weka/Weka-3-8/weka-src.jar!/src/main/java/weka/classifiers/lazy/IBk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6885">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/WekaMain2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3301">
+        <state relative-caret-position="9126">
           <caret line="341" column="26" lean-forward="false" selection-start-line="341" selection-start-column="26" selection-end-line="341" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChiImb1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1734">
-          <caret line="46" column="43" lean-forward="false" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+        <state relative-caret-position="567">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/weka/TestWeka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="39" column="71" lean-forward="false" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../weka/Weka-3-8/weka-src.jar!/src/main/java/weka/clusterers/SimpleKMeans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4887">
+          <caret line="1650" column="16" lean-forward="false" selection-start-line="1650" selection-start-column="16" selection-end-line="1650" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#51563#51564#0" expanded="true" />
+            <element signature="e#51610#51611#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Weka.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/kmeans/K_Means.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="102" column="29" lean-forward="true" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+        <state relative-caret-position="-2205">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="217" column="22" lean-forward="true" selection-start-line="217" selection-start-column="22" selection-end-line="217" selection-end-column="22" />
+        <state relative-caret-position="1566">
+          <caret line="217" column="22" lean-forward="false" selection-start-line="217" selection-start-column="22" selection-end-line="217" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1019,9 +1067,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="118">
+          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1262">
+          <caret line="77" column="34" lean-forward="false" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="48" column="41" lean-forward="false" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Weka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="47" column="29" lean-forward="false" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+          <folding>
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/kmeans/MyFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="82" column="31" lean-forward="false" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

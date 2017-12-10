@@ -26,7 +26,10 @@
           <root url="jar://$MODULE_DIR$/../../../weka/Weka-3-8/weka.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../weka/Weka-3-8/weka-src.jar!/src/main/java" />
+          <root url="jar://$MODULE_DIR$/../../../weka/Weka-3-8/weka-src.jar!/src/test/java" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project" />
@@ -34,7 +37,6 @@
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.39" level="project" />
     <orderEntry type="library" name="Maven: org.ansj:ansj_seg:5.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.nlpcn:nlp-lang:1.7.2" level="project" />
-    <orderEntry type="library" name="Maven: com.github.ptnplanet:Java-Naive-Bayes-Classifier:1.0.7" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.opennlp:opennlp-tools:1.5.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.opennlp:opennlp-maxent:3.0.3" level="project" />

@@ -13,7 +13,7 @@ public class TFIDFMainImb {
     public static void main(String[] args) {
         System.out.println(new Date());
         Long t1 = System.currentTimeMillis();
-        String path = "F:\\opennlp\\fudan-s61/";
+        String path = "F:\\lda\\neteasy\\netimb/";
         ParseDocument.getCorpMap(path + "train");
         ParseDocument.getCorpMapWithTest(path + "test");
         Map<String, Map<String, Double>> trainIDF = TFIDF.getTFIDFAll(true);
@@ -42,9 +42,10 @@ public class TFIDFMainImb {
             sb.append("\r\n\r\n" + Weka.j48);
             sb.append("\r\n" + Weka.nb);
             sb.append("\r\n" + Weka.rf);
-            sb.append("\r\n" + Weka.knn4);
-            sb.append("\r\n" + Weka.knn7);
-            sb.append("\r\n" + Weka.knn15);
+            sb.append("\r\n--------------");
+            //sb.append("\r\n" + Weka.knn4);
+            //sb.append("\r\n" + Weka.knn7);
+            //sb.append("\r\n" + Weka.knn15);
             sb.append("\r\n" + Weka.reslist);
             System.out.println("----------------------------------------------------------------");
         }
@@ -74,9 +75,10 @@ public class TFIDFMainImb {
             sb.append("\r\n\r\n" + Weka.j48);
             sb.append("\r\n" + Weka.nb);
             sb.append("\r\n" + Weka.rf);
-            sb.append("\r\n" + Weka.knn4);
-            sb.append("\r\n" + Weka.knn7);
-            sb.append("\r\n" + Weka.knn15);
+            sb.append("\r\n--------------");
+            //sb.append("\r\n" + Weka.knn4);
+            //sb.append("\r\n" + Weka.knn7);
+            //sb.append("\r\n" + Weka.knn15);
             sb.append("\r\n" + Weka.reslist);
             System.out.println("----------------------------------------------------------------");
         }
@@ -106,9 +108,10 @@ public class TFIDFMainImb {
             sb.append("\r\n\r\n" + Weka.j48);
             sb.append("\r\n" + Weka.nb);
             sb.append("\r\n" + Weka.rf);
-            sb.append("\r\n" + Weka.knn4);
-            sb.append("\r\n" + Weka.knn7);
-            sb.append("\r\n" + Weka.knn15);
+            sb.append("\r\n--------------");
+            //sb.append("\r\n" + Weka.knn4);
+            //sb.append("\r\n" + Weka.knn7);
+            //sb.append("\r\n" + Weka.knn15);
             sb.append("\r\n" + Weka.reslist);
             System.out.println("----------------------------------------------------------------");
         }
@@ -138,9 +141,10 @@ public class TFIDFMainImb {
             sb.append("\r\n\r\n" + Weka.j48);
             sb.append("\r\n" + Weka.nb);
             sb.append("\r\n" + Weka.rf);
-            sb.append("\r\n" + Weka.knn4);
-            sb.append("\r\n" + Weka.knn7);
-            sb.append("\r\n" + Weka.knn15);
+            sb.append("\r\n--------------");
+            //sb.append("\r\n" + Weka.knn4);
+            //sb.append("\r\n" + Weka.knn7);
+            //sb.append("\r\n" + Weka.knn15);
             sb.append("\r\n" + Weka.reslist);
             System.out.println("----------------------------------------------------------------");
         }
@@ -170,9 +174,10 @@ public class TFIDFMainImb {
             sb.append("\r\n\r\n" + Weka.j48);
             sb.append("\r\n" + Weka.nb);
             sb.append("\r\n" + Weka.rf);
-            sb.append("\r\n" + Weka.knn4);
-            sb.append("\r\n" + Weka.knn7);
-            sb.append("\r\n" + Weka.knn15);
+            sb.append("\r\n--------------");
+            //sb.append("\r\n" + Weka.knn4);
+            //sb.append("\r\n" + Weka.knn7);
+            //sb.append("\r\n" + Weka.knn15);
             sb.append("\r\n" + Weka.reslist);
             System.out.println("----------------------------------------------------------------");
         }

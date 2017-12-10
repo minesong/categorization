@@ -14,6 +14,9 @@ import java.io.IOException;
  * @date 2017/11/23
  */
 import java.io.File;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
@@ -27,6 +30,20 @@ public class TestWeka {
      * @param args
      */
     public static void main(String[] args) {
+        double []y=  {80.87,	85.71,	60.26,	62.93,	72.38,	85.37,	63.75,	83.62};
+        double []y1 ={82.66,	91.56,	62.83,	70.40,80.36,	85.23,	65.69,	81.22};
+
+        double []y2 ={91.67	,88.61,70.00,	79.99,	76.11,	83.46,	77.65,	90.40};
+        getAv(y);
+        getAv(y1);
+        getAv(y2);
+        double []yy=  {86.03,	58.57,	86.15,	57.75,	84.49,	86.36};
+        double []yy1 ={84.57,	65.93,	83.84,	68.83,82.65,	86.36};
+
+        double []yy2 ={88.65,67.86,87.68,	72.96,	83.05,	88.71};
+        getAv(yy);
+        getAv(yy1);
+        getAv(yy2);
         Instances ins = null;
         Classifier cfs = null;
 
@@ -62,5 +79,19 @@ public class TestWeka {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    private static void getAv(double[] y) {
+        double t =0;
+        for (double x:y) {
+            t+=x;
+        }
+        t=t/y.length;
+        //System.out.println(t);
+        double r =0;
+        for (double x:y){
+            r+=Math.pow(x-t,2);
+        }
+        System.out.println(r/y.length);
     }
 }
