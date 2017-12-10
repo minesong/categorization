@@ -1,6 +1,7 @@
 package com.song.classifie.fs;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 import weka.classifiers.Classifier;
 import weka.classifiers.bayes.NaiveBayes;
 import weka.classifiers.lazy.IBk;
@@ -34,7 +35,7 @@ class Node {
 
     @Override
     public String toString() {
-        return ToStringBuilder.reflectionToString(this);
+        return ToStringBuilder.reflectionToString(this, ToStringStyle.SIMPLE_STYLE);
     }
 }
 
@@ -130,6 +131,7 @@ public class Weka {
             node.f = 2 * node.p * node.r / (node.p + node.r);
             node.micf= right / sum;
             reslist.add(node);
+            res =node.f;
             System.out.println("classification precision:" + (right / sum) + " " + node.f);
         } catch (Exception e) {
             e.printStackTrace();

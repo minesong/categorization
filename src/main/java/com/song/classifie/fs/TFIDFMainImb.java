@@ -13,7 +13,7 @@ public class TFIDFMainImb {
     public static void main(String[] args) {
         System.out.println(new Date());
         Long t1 = System.currentTimeMillis();
-        String path = "F:\\lda\\neteasy\\netimb/";
+        String path = "F:\\opennlp\\fudan-s61/";
         ParseDocument.getCorpMap(path + "train");
         ParseDocument.getCorpMapWithTest(path + "test");
         Map<String, Map<String, Double>> trainIDF = TFIDF.getTFIDFAll(true);
@@ -181,7 +181,7 @@ public class TFIDFMainImb {
             sb.append("\r\n" + Weka.reslist);
             System.out.println("----------------------------------------------------------------");
         }
-        TFIDFMain.writeStrToFile(path + "resultnew1129.txt", sb.toString());
+        TFIDFMain.writeStrToFile(path + "resultimb1210.txt", sb.toString());
         System.out.println(new Date());
         Long t2 = System.currentTimeMillis();
         System.out.println((t2 - t1) / (1.0 * 1000 * 60));
