@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c89ec21b-c9d7-46a9-ab4f-c37c6bc7ea7d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/TFIDFMainImb.class" afterPath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/TFIDFMainImb.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/Weka.class" afterPath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/Weka.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Weka.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Weka.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -82,7 +82,7 @@
       <file leaf-file-name="TFIDFMainImb.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-567">
+            <state relative-caret-position="891">
               <caret line="54" column="20" lean-forward="false" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -520,7 +520,7 @@
       <workItem from="1512290153891" duration="57170000" />
       <workItem from="1512614346134" duration="2761000" />
       <workItem from="1512652282577" duration="1750000" />
-      <workItem from="1512786901268" duration="27463000" />
+      <workItem from="1512786901268" duration="29076000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <created>1511938933863</created>
@@ -557,11 +557,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512876713200</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix the P/R/F">
+      <created>1512900903117</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1512900903117</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220661000" />
+    <option name="totallyTimeSpent" value="222274000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -574,7 +581,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3258427" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -586,7 +592,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.81320226" sideWeight="0.49484536" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9747191" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8469101" sideWeight="0.49420103" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8469101" sideWeight="0.49420103" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26997423" sideWeight="0.49166667" order="0" side_tool="false" content_ui="combo" />
@@ -673,7 +679,8 @@
     <MESSAGE value="增加KNN分类器代码" />
     <MESSAGE value="增加Weka 评估标准 P、R、F" />
     <MESSAGE value="增加Weka 评估标准 P、R、F，增加kmeans 聚类" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加Weka 评估标准 P、R、F，增加kmeans 聚类" />
+    <MESSAGE value="fix the P/R/F" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix the P/R/F" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1053,7 +1060,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567">
+        <state relative-caret-position="891">
           <caret line="54" column="20" lean-forward="false" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
