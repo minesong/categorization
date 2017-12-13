@@ -10,6 +10,7 @@ import java.util.Map;
  * @date 2017/12/5
  */
 public class TFIDFMainImb {
+
     public static void main(String[] args) {
         System.out.println(new Date());
         Long t1 = System.currentTimeMillis();
@@ -36,9 +37,9 @@ public class TFIDFMainImb {
             sb.append(svm_predict.f1Scores.toString());
             sb.append("\r\n" + svm_predict.micro);
             sb.append("\r\n" + svm_predict.macro);
-            Weka.getTermWeightwithTFIDFImb(path + "train", path  + "train.arff", trainIDF);
-            Weka.getTermWeightwithTFIDFImb(path + "test", path  + "test.arff", testIDF);
-            Weka.wekaClassifier(path  + "train.arff", path  + "test.arff");
+            Weka.getTermWeightwithTFIDFImb(path + "train", path + "train.arff", trainIDF);
+            Weka.getTermWeightwithTFIDFImb(path + "test", path + "test.arff", testIDF);
+            Weka.wekaClassifier(path + "train.arff", path + "test.arff");
             sb.append("\r\n\r\n" + Weka.j48);
             sb.append("\r\n" + Weka.nb);
             sb.append("\r\n" + Weka.rf);
@@ -69,9 +70,9 @@ public class TFIDFMainImb {
             sb.append(svm_predict.f1Scores.toString());
             sb.append("\r\n" + svm_predict.micro);
             sb.append("\r\n" + svm_predict.macro);
-            Weka.getTermWeightwithTFIDFImb1(path + "train", path  + "train.arff", trainIDF);
-            Weka.getTermWeightwithTFIDFImb1(path + "test", path  + "test.arff", testIDF);
-            Weka.wekaClassifier(path  + "train.arff", path  + "test.arff");
+            Weka.getTermWeightwithTFIDFImb1(path + "train", path + "train.arff", trainIDF);
+            Weka.getTermWeightwithTFIDFImb1(path + "test", path + "test.arff", testIDF);
+            Weka.wekaClassifier(path + "train.arff", path + "test.arff");
             sb.append("\r\n\r\n" + Weka.j48);
             sb.append("\r\n" + Weka.nb);
             sb.append("\r\n" + Weka.rf);
@@ -102,9 +103,9 @@ public class TFIDFMainImb {
             sb.append(svm_predict.f1Scores.toString());
             sb.append("\r\n" + svm_predict.micro);
             sb.append("\r\n" + svm_predict.macro);
-            Weka.getTermWeightwithTFIDFBase(path + "train", path  + "train.arff", trainIDF);
-            Weka.getTermWeightwithTFIDFBase(path + "test", path  + "test.arff", testIDF);
-            Weka.wekaClassifier(path  + "train.arff", path  + "test.arff");
+            Weka.getTermWeightwithTFIDFBase(path + "train", path + "train.arff", trainIDF);
+            Weka.getTermWeightwithTFIDFBase(path + "test", path + "test.arff", testIDF);
+            Weka.wekaClassifier(path + "train.arff", path + "test.arff");
             sb.append("\r\n\r\n" + Weka.j48);
             sb.append("\r\n" + Weka.nb);
             sb.append("\r\n" + Weka.rf);
@@ -135,9 +136,9 @@ public class TFIDFMainImb {
             sb.append(svm_predict.f1Scores.toString());
             sb.append("\r\n" + svm_predict.micro);
             sb.append("\r\n" + svm_predict.macro);
-            Weka.getTermWeightwithTFIDF11(path + "train", path  + "train.arff", trainIDF);
-            Weka.getTermWeightwithTFIDF11(path + "test", path  + "test.arff", testIDF);
-            Weka.wekaClassifier(path  + "train.arff", path  + "test.arff");
+            Weka.getTermWeightwithTFIDF11(path + "train", path + "train.arff", trainIDF);
+            Weka.getTermWeightwithTFIDF11(path + "test", path + "test.arff", testIDF);
+            Weka.wekaClassifier(path + "train.arff", path + "test.arff");
             sb.append("\r\n\r\n" + Weka.j48);
             sb.append("\r\n" + Weka.nb);
             sb.append("\r\n" + Weka.rf);
@@ -168,9 +169,9 @@ public class TFIDFMainImb {
             sb.append(svm_predict.f1Scores.toString());
             sb.append("\r\n" + svm_predict.micro);
             sb.append("\r\n" + svm_predict.macro);
-            Weka.getTermWeightwithTFIDF2(path + "train", path  + "train.arff", trainIDF);
-            Weka.getTermWeightwithTFIDF2(path + "test", path  + "test.arff", testIDF);
-            Weka.wekaClassifier(path  + "train.arff", path  + "test.arff");
+            Weka.getTermWeightwithTFIDF2(path + "train", path + "train.arff", trainIDF);
+            Weka.getTermWeightwithTFIDF2(path + "test", path + "test.arff", testIDF);
+            Weka.wekaClassifier(path + "train.arff", path + "test.arff");
             sb.append("\r\n\r\n" + Weka.j48);
             sb.append("\r\n" + Weka.nb);
             sb.append("\r\n" + Weka.rf);

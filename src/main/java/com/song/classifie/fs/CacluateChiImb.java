@@ -7,7 +7,7 @@ import java.util.*;
  * @date 2017/11/12
  */
 public class CacluateChiImb {
-
+    public static StringBuffer schi = new StringBuffer();
     public static Integer featureNum = 200;
     public static Map<String, Integer> mapCls;
     public static Map<String, Integer> mapSVM;
@@ -143,12 +143,19 @@ public class CacluateChiImb {
             total += na * 1.0 / (na + nc);
         }
         Double chi = new ChiSquare(feature, a, b, c, d).getChisq();
+        //schi.append(" class:" + cls);
+        // schi.append(", feature:" + feature);
+        //schi.append(", chi:" + chi);
+        //schi.append(", weight:" + Math.log(weight * t * 1.0 / (a + b)));
+        //schi.append(", pow:" + Math.pow(a * 1.0 / (a + c) - total / corpMap.keySet().size(), 2));
         chi = chi * Math.log(weight * t * 1.0 / (a + b)) * Math.pow(a * 1.0 / (a + c) - total / corpMap.keySet().size(), 2);
-        if (a * d - b * c < 0 && ((a * 1.0 / (a + d)) < 0.5)){
+        //schi.append(", imbchi1:" + chi);
+        if (a * d - b * c < 0 && ((a * 1.0 / (a + d)) < 0.5)) {
             chi = 0.0;
-            System.out.println(feature);
+            //System.out.println(feature);
         }
-
+        //schi.append(", imbchi2:" + chi);
+        //schi.append("\r\n");
         return chi;
     }
 }
