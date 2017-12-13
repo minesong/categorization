@@ -4,15 +4,15 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain2.java" line="12" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c89ec21b-c9d7-46a9-ab4f-c37c6bc7ea7d" name="Default" comment="测试">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain11.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChiImb.class" afterPath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChiImb.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/weka/TestWeka.class" afterPath="$PROJECT_DIR$/target/classes/com/song/classifie/weka/TestWeka.class" />
+    <list default="true" id="c89ec21b-c9d7-46a9-ab4f-c37c6bc7ea7d" name="Default" comment="fix_1213">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs2/CacluateChiPV.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs2/TFIDFMainPV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/TermWeightWithTFIDF.class" afterPath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/TermWeightWithTFIDF.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChiImb.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChiImb.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/weka/TestWeka.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classifie/weka/TestWeka.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain11.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain11.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb2.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TermWeightWithTFIDF.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TermWeightWithTFIDF.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Weka.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Weka.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TFIDFMainImb.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java">
+      <file leaf-file-name="CacluateChiPV.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs2/CacluateChiPV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="188" column="5" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="188" selection-end-column="5" />
+            <state relative-caret-position="297">
+              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,11 +51,79 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CacluateChiImb.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChiImb.java">
+      <file leaf-file-name="TFIDF.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="145" column="10" lean-forward="false" selection-start-line="145" selection-start-column="10" selection-end-line="145" selection-end-column="10" />
+            <state relative-caret-position="-4948">
+              <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TermWeightWithTFIDF.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TermWeightWithTFIDF.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-763">
+              <caret line="227" column="23" lean-forward="false" selection-start-line="227" selection-start-column="23" selection-end-line="227" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TFIDFMainImb.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="51" column="9" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="51" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TFIDFMainImb2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="56" column="58" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="56" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TFIDFMainPV.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs2/TFIDFMainPV.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TFIDFMain11.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain11.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Weka.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Weka.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="536" column="23" lean-forward="false" selection-start-line="536" selection-start-column="23" selection-end-line="536" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -64,83 +132,9 @@
       <file leaf-file-name="TFIDFMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            <state relative-caret-position="-270">
+              <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TFIDFMain11.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain11.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="28" column="58" lean-forward="false" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CacluateChi3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3017">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CacluateChi2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2801">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CacluateChi111.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi111.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2491">
-              <caret line="32" column="55" lean-forward="false" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CacluateChi11.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi11.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3112">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParseDocument.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/ParseDocument.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TFIDFMainImb2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="57" column="5" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="57" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -156,6 +150,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -165,10 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/烦死哒.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/发生的.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CH.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/手动阀.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/svm/svm_predict.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/knn/fsa1.java" />
@@ -200,7 +195,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/第三方.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/ds.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/WekaMainImb.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TermWeightWithTFIDF.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChiImb1.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs2/Kmeans.java" />
@@ -209,13 +203,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs2/MyFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/kmeans/K_Means.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/kmeans/MyFrame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Weka.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/weka/TestWeka.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChiImb.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TextMain11.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain11.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs2/fs2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TermWeightWithTFIDF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Weka.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs2/CacluateChiPV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain11.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainPV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/song/classifie/fs2/TFIDFMainPV.java" />
       </list>
     </option>
   </component>
@@ -244,8 +243,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="1121" />
+    <option name="y" value="72" />
     <option name="width" value="160" />
     <option name="height" value="38" />
   </component>
@@ -308,7 +307,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="classifie" type="462c0819:PsiDirectoryNode" />
-              <item name="fs" type="462c0819:PsiDirectoryNode" />
+              <item name="fs2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,6 +326,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../weka/Weka-3-8/weka-src.jar!/" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.song.classifie.fs2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\develop\workspace\featureselection\categorization\src\main\resources" />
       <recent name="D:\develop\workspace\featureselection\categorization\src\main\java\com\song\classifie\fs" />
@@ -346,26 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TFIDFMain11">
-    <configuration name="MyFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.song.classifie.kmeans.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.song.classifie.kmeans.MyFrame" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="categorization" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Application.TFIDFMainPV (1)">
     <configuration name="TFIDFMain11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -385,14 +368,14 @@
       <module name="categorization" />
       <envs />
     </configuration>
-    <configuration name="TFIDFMainImb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TFIDFMainImb2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.song.classifie.fs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.song.classifie.fs.TFIDFMainImb" />
+      <option name="MAIN_CLASS_NAME" value="com.song.classifie.fs.TFIDFMainImb2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -404,14 +387,33 @@
       <module name="categorization" />
       <envs />
     </configuration>
-    <configuration name="TFIDFMainImb2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TFIDFMainPV (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.song.classifie.fs2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.song.classifie.fs2.TFIDFMainPV" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="categorization" />
+      <envs />
+    </configuration>
+    <configuration name="TFIDFMainPV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.song.classifie.fs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.song.classifie.fs.TFIDFMainImb2" />
+      <option name="MAIN_CLASS_NAME" value="com.song.classifie.fs.TFIDFMainPV" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -524,19 +526,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TFIDFMainImb" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestWeka" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MyFrame" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TFIDFMainImb2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TFIDFMain11" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestWeka" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TFIDFMainImb2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TFIDFMain11" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TFIDFMainPV" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TFIDFMainPV (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TFIDFMain11" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TFIDFMainImb2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestWeka" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TFIDFMainImb" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MyFrame" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TFIDFMainPV (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TFIDFMainPV" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TFIDFMain11" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TFIDFMainImb2" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestWeka" />
       </list>
     </recent_temporary>
   </component>
@@ -568,7 +570,7 @@
       <workItem from="1512652282577" duration="1750000" />
       <workItem from="1512786901268" duration="31290000" />
       <workItem from="1513062854235" duration="10307000" />
-      <workItem from="1513134238815" duration="4040000" />
+      <workItem from="1513134238815" duration="12539000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <created>1511938933863</created>
@@ -619,13 +621,20 @@
       <option name="project" value="LOCAL" />
       <updated>1512980142546</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix_1213">
+      <created>1513140680115</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1513140680115</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238835000" />
+    <option name="totallyTimeSpent" value="247334000" />
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -644,15 +653,16 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45067698" sideWeight="0.505799" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51404494" sideWeight="0.507732" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51404494" sideWeight="0.49484536" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9747191" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51404494" sideWeight="0.49226806" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5744382" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8469101" sideWeight="0.49420103" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22036083" sideWeight="0.49166667" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925257" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0154639175" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -664,7 +674,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -737,7 +746,8 @@
     <MESSAGE value="增加Weka 评估标准 P、R、F，增加kmeans 聚类" />
     <MESSAGE value="fix the P/R/F" />
     <MESSAGE value="删除target" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除target" />
+    <MESSAGE value="fix_1213" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix_1213" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -750,22 +760,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/knn/kNN.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/knn/TestkNN.java" />
-    <entry file="jar://D:/java/jdk8/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118">
-          <caret line="1027" column="18" lean-forward="false" selection-start-line="1027" selection-start-column="18" selection-end-line="1027" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../weka/Weka-3-8/weka.jar!/weka/classifiers/trees/J48.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="54" column="11" lean-forward="false" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../weka/Weka-3-8/weka-src.jar!/src/main/java/weka/classifiers/trees/J48.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -778,13 +772,6 @@
         <state relative-caret-position="-12084">
           <caret line="104" column="19" lean-forward="false" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TermWeightWithTFIDF2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -837,13 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/categorization.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
@@ -873,26 +853,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -992,14 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6-sources.jar!/org/apache/commons/lang3/builder/ToStringStyle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -1011,22 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Weka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11826">
-          <caret line="460" column="23" lean-forward="false" selection-start-line="460" selection-start-column="23" selection-end-line="460" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TermWeightWithTFIDF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4914">
-          <caret line="183" column="23" lean-forward="false" selection-start-line="183" selection-start-column="23" selection-end-line="183" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1063,52 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChiImb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="145" column="10" lean-forward="false" selection-start-line="145" selection-start-column="10" selection-end-line="145" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="188" column="5" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="188" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="57" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="58" lean-forward="false" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3017">
@@ -1119,9 +1013,150 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2801">
+        <state relative-caret-position="-162">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/categorization.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="3" column="55" lean-forward="true" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChiImb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="152" column="63" lean-forward="true" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TermWeightWithTFIDF2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4948">
+          <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="51" column="9" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="51" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="56" column="58" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="56" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Weka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="536" column="23" lean-forward="false" selection-start-line="536" selection-start-column="23" selection-end-line="536" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainPV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TermWeightWithTFIDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-763">
+          <caret line="227" column="23" lean-forward="false" selection-start-line="227" selection-start-column="23" selection-end-line="227" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs2/TFIDFMainPV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classifie/fs2/CacluateChiPV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

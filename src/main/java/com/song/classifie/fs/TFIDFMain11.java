@@ -21,8 +21,8 @@ public class TFIDFMain11 {
         String subPath = "reslut1213-1.txt";
         getRes(path, trainIDF, testIDF, subPath);
 
-        trainIDF = TFIDF.getTFIDFAll2(true);
-        testIDF = TFIDF.getTFIDFAll2(false);
+        trainIDF = TFIDF.getTFIDFAll1(true);
+        testIDF = TFIDF.getTFIDFAll1(false);
         subPath = "reslut1213-2.txt";
         getRes(path, trainIDF, testIDF, subPath);
         Long t2 = System.currentTimeMillis();
