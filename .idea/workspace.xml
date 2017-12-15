@@ -4,95 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/song/classification/fs/main/TFIDFMain2.java" line="18" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c89ec21b-c9d7-46a9-ab4f-c37c6bc7ea7d" name="Default" comment="Probability Variance CHI">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs2/CacluateChiTFD.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChi$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChi.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChi1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChi1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChi11$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChi11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChi111$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChi111.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChi2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChi2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChi3$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChi3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChi4$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChi4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChiBase$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChiBase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChiImb$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChiImb.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChiImb1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CacluateChiImb1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/CaclueteSVM.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/ChiSquare.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/PCHIPTFIDFMain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/ParseDocument.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/TFIDF.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/TFIDFMain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/TFIDFMain2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/TermWeightWithTFIDF.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/TermWeightWithTFIDF2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/WekaMain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/fs/WekaMain2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/svm/AppletFrame$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/svm/AppletFrame.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/svm/F1Score.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/svm/SVMDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/svm/svm_predict$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/svm/svm_predict$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/svm/svm_predict.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/svm/svm_scale.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/svm/svm_toy$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/svm/svm_toy$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/svm/svm_toy$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/svm/svm_toy$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/svm/svm_toy$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/svm/svm_toy$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/svm/svm_toy$point.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/svm/svm_toy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/svm/svm_train$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/svm/svm_train.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/song/classifie/weka/TestWeka.class" afterPath="" />
+    <list default="true" id="c89ec21b-c9d7-46a9-ab4f-c37c6bc7ea7d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/chi/CacluateChi.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi1.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/chi/CacluateChi1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi11.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/chi/CacluateChi11.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi111.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/chi/CacluateChi111.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi2.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/chi/CacluateChi2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi3.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/chi/CacluateChi3.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChi4.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/chi/CacluateChi4.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChiBase.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/chi/CacluateChiBase.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChiImb.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/chi/CacluateChiImb.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CacluateChiImb1.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/chi/CacluateChiImb1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/CaclueteSVM.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/svm/CaclueteSVM.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/ChiSquare.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/chi/ChiSquare.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/PCHIPTFIDFMain.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/main/PCHIPTFIDFMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/ParseDocument.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/ParseDocument.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDF.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/weight/TFIDF.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/main/TFIDFMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain11.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/main/TFIDFMain11.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMain2.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/main/TFIDFMain2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/main/TFIDFMainImb.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TFIDFMainImb2.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/main/TFIDFMainImb2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TermWeightWithTFIDF.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/weight/TermWeightWithTFIDF.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/TermWeightWithTFIDF2.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/weight/TermWeightWithTFIDF2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/Weka.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/weight/Weka.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/WekaMain.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/main/WekaMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs/WekaMain2.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs/main/WekaMain2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs2/CacluateChiPV.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs2/CacluateChiPV.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/fs2/TFIDFMainPV.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/fs2/TFIDFMainPV.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/kmeans/K_Means.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/kmeans/K_Means.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/kmeans/MyFrame.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/kmeans/MyFrame.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/svm/F1Score.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/svm/F1Score.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/svm/SVMDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/svm/SVMDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/svm/svm_predict.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/svm/svm_predict.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/svm/svm_scale.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/svm/svm_scale.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/svm/svm_toy.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/svm/svm_toy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/svm/svm_train.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/svm/svm_train.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/song/classifie/weka/TestWeka.java" afterPath="$PROJECT_DIR$/src/main/java/com/song/classification/weka/TestWeka.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -179,7 +92,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TFIDF.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TFIDF.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classification/fs/weight/TFIDF.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -189,12 +102,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TFIDFMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classification/fs/main/TFIDFMain.java">
+      <file leaf-file-name="TFIDFMainPV.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classification/fs2/TFIDFMainPV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="889">
+              <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -565,7 +480,7 @@
       <workItem from="1512652282577" duration="1750000" />
       <workItem from="1512786901268" duration="31290000" />
       <workItem from="1513062854235" duration="10307000" />
-      <workItem from="1513134238815" duration="31134000" />
+      <workItem from="1513134238815" duration="31597000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <created>1511938933863</created>
@@ -630,11 +545,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513153505097</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="修改目录 and TFDCHI paper implement">
+      <created>1513309421341</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1513309421341</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265929000" />
+    <option name="totallyTimeSpent" value="266392000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -658,10 +580,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925257" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56320226" sideWeight="0.49226806" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5744382" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8469101" sideWeight="0.49420103" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8469101" sideWeight="0.49420103" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22036083" sideWeight="0.49166667" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.49166667" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925257" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -749,7 +671,8 @@
     <MESSAGE value="删除target" />
     <MESSAGE value="fix_1213" />
     <MESSAGE value="Probability Variance CHI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Probability Variance CHI" />
+    <MESSAGE value="修改目录 and TFDCHI paper implement" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改目录 and TFDCHI paper implement" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -950,14 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="17" column="38" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classification/fs2/TFIDFMainPV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="33" column="52" lean-forward="false" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -1163,6 +1078,16 @@
         <state relative-caret-position="216">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/song/classification/fs2/TFIDFMainPV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="889">
+          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
